@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["syn"]
 readme = ""
+packages = [{ include = "pkinittools" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
