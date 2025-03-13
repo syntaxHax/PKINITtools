@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pkinittools"
+version = "0.1.0"
+description = ""
+authors = ["syn"]
+readme = ""
+
+[tool.poetry.dependencies]
+python = "^3.11"
+impacket = "^0.11.0"
+minikerberos = "^0.4.2"
+oscrypto = { git = "https://github.com/syntaxHax/oscrypto.git", rev = "1547f53" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
